@@ -33,8 +33,7 @@
 # //*/*"*\*\\
 #			|||
 # 
-
-import sys, random
+import sys, random, datetime, getpass
 
 def colored (string, color):
 		color_code="\x1B["
@@ -69,5 +68,6 @@ def main():
 				#print colored("".join(current_line), 2)
 		
 		print colored((size-2)*" " + "|||",1)
-		
+		print "      " + "Merry Christmas and a Happy New Year " + str(datetime.date.today().year + 1) + ", " + getpass.getuser() + "!"
+
 main()
