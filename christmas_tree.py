@@ -54,9 +54,9 @@ def main():
     for i in range(size):
         current_line = list((size-1-i)* " " + "/"* i + "\"" + "\\" * i)
         # ornaments
-        for j in range((i)*2):
+        for j in range((i)*2 +1):
             if random.randint(0,3) == 3:
-                current_line[size-i + j] = "*"
+                current_line[size-i-1 + j] = "*"
         colored_line = ''
         for char in current_line:
             #join each character of a line in appropriate color
