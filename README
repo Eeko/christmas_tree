@@ -1,0 +1,35 @@
+christmas_tree.py
+
+Eetu "Eeko" Korhonen, 2011
+
+A small holiday-script to render a posix-colored christmas-tree with a few 
+random decorations to the terminal.
+
+Usage:
+Just execute the script. Eg.
+
+ $ python christmas_tree.py
+      _^_
+      ´ `
+       "
+      /*\
+     //"\\
+    ///*\\\
+   ///*"*\\*
+  /**//*\\\\\
+ /**///**\\*\\
+      |||
+
+You can give a desired tree-height as a parameter.
+
+ $ python christmas_tree.py 6
+     _^_
+     ´ `       
+      "        |
+     /"\       |
+    /**\\      |  6 lines 
+   /**"\\\     |    long
+  //*/"\\*\    |
+ //*/*"*\*\\   |
+     |||
+ 
